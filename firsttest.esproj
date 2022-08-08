@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/0.5.26-alpha">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>8573621b-ddac-4375-9a32-476df5eed2e3</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupCommand>set BROWSER=none&amp;&amp;npm start</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Jest</JavaScriptTestFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\Components\dashboard\datatable\popupforms\" />
+    <Folder Include="src\Components\dashboard\datatable\utils\controls\" />
+    <Folder Include="src\Components\dashboard\navbar\" />
+    <Folder Include="src\Components\dashboard\sidebar\" />
+    <Folder Include="src\Components\dashboard\widget\cards\" />
+    <Folder Include="src\Components\modal\" />
+    <Folder Include="src\Components\layouts\" />
+    <Folder Include="src\Components\NewFolder\" />
+    <Folder Include="src\Components\user_components\" />
+    <Folder Include="src\Components\welcome\buttons\" />
+    <Folder Include="src\Components\welcome\elements\" />
+    <Folder Include="src\Components\welcome\nav\" />
+    <Folder Include="src\Components\welcome\sections\" />
+    <Folder Include="src\assets\" />
+    <Folder Include="src\style\" />
+    <Folder Include="src\pages\login\" />
+    <Folder Include="src\pages\list\" />
+    <Folder Include="src\pages\home\" />
+    <Folder Include="src\pages\welcome\" />
+    <Folder Include="src\pages\single\" />
+  </ItemGroup>
+</Project>
